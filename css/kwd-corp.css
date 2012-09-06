@@ -1,0 +1,131 @@
+body {
+background:#505050 url("../images/kwd-bg.png") repeat-x; 
+font-family:'FontSiteSansRoman', Arial, Sans-Serif; 
+font-size:12px;
+color:#666666;
+margin:0 auto;
+
+}
+
+p {margin-top:15px; padding:0}
+a {text-decoration:none; color:#666666}
+a:hover {color:#505050}
+
+header, nav, section, article, figure, aside, footer, video {
+    display: block;
+}
+
+h1 {font-family:'FontSiteSansCondensed', 'Arial Narrow'; text-transform:uppercase; color:#333; font-size:16px; font-weight:bold; margin:17px 0 2px 0; padding:0 }
+h2 {font-family:'FontSiteSansCondensed', 'Arial Narrow';  color:#5C5C5C; font-size:16px; font-weight:bold; padding:0; margin:20px 0 2px 0; }
+
+.wrapper {
+width:960px;
+margin:0 auto;
+padding:0;
+}
+
+/*Scrollbars for Webkit Browsers*/
+::-webkit-scrollbar {
+    width: 12px;}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 0px;}
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);}
+
+header.main {
+position:relative;
+width:960px;
+height:69px;
+margin:35px auto 11px auto;
+padding:0 0 4px 0;
+}
+
+/*Header Styles*/
+.logo {
+position:relative; 
+float:left; 
+border:0;
+padding-top:0px;
+margin-top:-12px
+}
+
+nav.navigation {
+position:relative; 
+float:right; margin-top:0
+}
+
+nav.navigation div {
+position:relative;
+float:left;
+width:auto;
+height:14px;
+text-align:center;
+padding:6px 0 10px 0 ; margin: 46px 24px 0 0;
+border-top:#2c2c2c dotted 1px;
+}
+
+nav.navigation div a { font-family:'FontSiteSansCondensed', 'Arial Narrow'; color:#FFF; text-decoration:none; text-transform:uppercase; font-size:14px; vertical-align:bottom;  text-align:center; letter-spacing:0.13em  }
+nav.navigation div:hover {border-top:#555555 dotted 1px; margin-bottom:0;}
+nav.navigation div.current {border-top:#ccc dotted 1px; margin-bottom:0;}
+
+/*Main Content Areas*/
+.hp-slideshow {
+position:relative;
+width: 948px;
+margin:0 auto;
+height:484px;
+background:#EDEDED;
+border:6px solid #DEDEDE;
+padding:0px;
+}
+
+.content-main {
+position:relative;
+margin:0 auto;
+width:908px;
+height:484px;
+background:#EDEDED;
+border:6px solid #DEDEDE;
+
+}
+
+.content-main p {margin-left:-20px; padding-left:0; line-height:18px}
+
+.brands-main {padding:0; margin-top:65px; height:430px; width:948px; border:6px solid #DEDEDE; }
+.content-main, .content-main p 
+{
+color:#666;
+font-size:12px;
+padding:0 21px;
+}
+
+.brands-images {position:relative; float:left: border:0; z-index:2;}
+
+.about-kellwood {width:900px; background:#010101; margin:0 auto; text-align:center;}
+.contact {float:right; position:relative; margin:3px 20px 0 0; }
+.contact-kellwood {position:relative; float:left; padding:0 0 0 0;}
+.privacy {height:395px; overflow-y:scroll; padding:5px; border:1px #fff solid;
+}
+.contact-kellwood p {margin-top:0}
+
+
+/*Footer*/
+footer {
+position:relative; 
+float:left; 
+margin-top:70px;
+width:100%; 
+height:auto;
+padding:16px 0 24px 0;
+text-align:center;
+}
+
+
+.footer-menu {color:#FFF; text-transform:uppercase; font-family:'FontSiteSansCondensed'; letter-spacing:0.13em  }
+.footer-menu a {text-decoration:none; margin-left:10px; color:#FFF; font-family:'FontSiteSansCondensed'; letter-spacing:0.13em }
+
+
+
